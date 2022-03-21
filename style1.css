@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital@1&family=Roboto&display=swap');
+.background img{
+    height: 100vh;
+    object-fit: cover;
+ 
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets//images/gandam.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.background{
+    height: 100vh;
+
+}
+.navbar {
+    background-color: rgb(189, 255, 66) !important;
+    
+}
+.nav-link{
+    color: rgb(0, 14, 26) !important;
+    font-family: 'Roboto display';
+    font-size: large;
+}
+.navbar-brand{
+    color: rgb(0, 14, 26) !important;
+    font-family: 'Roboto display';
+    font-size: x-large;
+    
+}
+.konten p {
+    font-size: small;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-shadow: 10px, 5px, 10px;
+    text-align: justify;
+    margin-bottom: 50px;top: 50vh; 
+    right: 5vh;
+    z-index: 10;
+    width: 300px;
+    height: 5px;
+    text-shadow: 0px 3px 5px rgb(0, 3, 3) !important;
+    font-family: 'noto serif display';
+    z-index: 10 ;
+}
+@media (min-width : 992px){
+.konten p {
+    font-size: large;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-shadow: 10px, 5px, 10px;
+    text-align: justify;
+    margin-bottom: 100px;top: 18vh; 
+    right: 15vh;
+    z-index: 10;
+    width: 450px;
+    text-shadow: 0px 3px 5px rgb(0, 3, 3) !important;
+    font-family: 'noto serif display';
+}
+
+.background img{
+    height: 100vh;
+    position : relative;
+    width: 100%;
+}
+
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Roboto display';
+    font-size: large;
+}
+.navbar-brand{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Roboto display';
+    font-size: x-large;
+    
+}
+
+.navbar {
+    background-color: transparent !important;
+    
+}
+}

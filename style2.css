@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital@1&family=Roboto&display=swap');
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets//images/contact me.png');
+    background-size: cover;
+    background-position: center;
+}
+.buy{
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets//images/contact me.png');
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    background-color: rgb(252, 249, 66) !important;
+    
+}
+
+.nav-link{
+    color: rgb(20, 23, 26) !important;
+    font-family: 'Roboto display';
+    font-size: large;
+}
+.navbar-brand{
+    color: rgb(11, 13, 15) !important;
+    font-family: 'Roboto display';
+    font-size: x-large;
+    
+}
+.kontex{
+    position: absolute;
+    z-index: 10;
+    margin-left: 0vh;
+    font-family: 'roboto display';
+}
+.kontex p{
+    color: rgb(243, 243, 243);
+}
+.kontex label{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 7px rgb(0, 0, 0) !important;
+}
+.background img{
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+
+}
+
+@media(min-width : 992px){
+
+.nav-link{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Roboto display';
+    font-size: large;
+}
+.navbar {
+    background-color: transparent !important;
+    
+}
+.navbar-brand{
+    color: rgb(255, 255, 255) !important;
+    font-family: 'Roboto display';
+    font-size: x-large;
+    
+}
+.kontex{
+    position: absolute;
+    z-index: 10;
+    margin-left: 15vh;
+}
+.background img{
+    height: 100vh;
+    position : relative;
+    width: 100%;
+}
+
+
+}
